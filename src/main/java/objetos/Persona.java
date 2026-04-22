@@ -8,6 +8,9 @@ public abstract class Persona {
     private String apellido;
     private LocalDateTime fechaNacimiento;
 
+    public Persona() {
+    }
+
     public Persona(String dni, String nombre, String apellido) {
         this.dni = dni;
         this.nombre = nombre;

@@ -21,6 +21,7 @@ public class EquipoCatedra {
     }
 
     public EquipoCatedra() {}
+    // patron delegate sobre lista de jtps
 
     public boolean addJtp(IJtp iJtp) {
         return jtps.add(iJtp);

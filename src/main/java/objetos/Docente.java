@@ -20,6 +20,11 @@ public class Docente extends Persona {
     }
 
     @Override
+    public String toString() {
+        return "legajo: " + legajo +" "+ super.toString();
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Docente docente = (Docente) o;
